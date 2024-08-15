@@ -45,3 +45,20 @@ section#telefone{
     width: 267px;
     height: 471px;
 }
+section#redes{
+    text-align: right;/*deixar os botoes na direita*/
+}
+section#redes img{
+    width: 50px;/*largura*/
+    height: 50px;/*altura*/
+    margin: 10px;/*separar as imagens*/
+    border-radius: 50%;/*deixar imagem redonda*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);/*sombra dos botoes*/
+    box-sizing: border-box;/*efeito bonito, só confia*/
+}
+section#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.623);/*quando passar o mouse encima cria uma borda*/
+    transform: translate(-3px, -3px);/*para o botao se mexer quando passar o mouse*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);/*sombra de quando passar o mouse, deve ser maior doq a sombra normal*/
+    transition: transform .3s, border 1s;/*para o transfom aparecer em 0.3s e border em 1s*/
+}
