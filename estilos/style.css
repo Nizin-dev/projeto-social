@@ -30,9 +30,9 @@ section#telefone{
     background: url('../pacote-d013/imagens/frame-iphone.png') no-repeat;
 }
 
-/*position: relative;(no main)
+/*position: relative;(main{)
 
- position: absolute;
+ position: absolute;(section#{)
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); codigos para centralizar a section*/ 
